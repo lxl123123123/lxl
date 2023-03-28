@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport"content="width=device-width, initial-scale=1.0,user-scalable=no, maximum-scale=1.0,minimum-scale=1.0">
+    <title>Document</title>
+    <style>
+        @keyframes imgblur {
+            0%{
+                opacity: 1;
+            }
+            100%{
+                opacity: 0;
+            }
+        }
+        @keyframes imgclear {
+            0%{
+                opacity: 0;
+            }
+            100%{
+                opacity: 1;
+            }
+        }
+        .container {
+            width: 100%;
+            height: calc(100vh);
+            background: url('./picture/bgc.png');
+            background-size: 100% 100%;
+            position: relative;
+        }
+        .img1 {
+            position: absolute;
+            left: 23.13%;
+            top: 47.57%;
+            width: 55.14%;
+            height: 4.42%;
+            opacity: 1;
+        }
+        .img2 {
+            position: absolute;
+            left: 35.04%;
+            top: 47.57%;
+            width: 31.54%;
+            height: 4.42%;
+            opacity: 0;
+        }
+    </style>
+    <link rel="stylesheet" href="./css/reset.css">
+</head>
+<body>
+    <div class="container">
+        <img src="./picture/img1.png" alt="" class="img1">
+        <img src="./picture/img2.png" alt="" class="img2">
+    </div>
+    <script>
+        img1 = document.getElementsByClassName('img1')[0];
+        img2 = document.getElementsByClassName('img2')[0];
+        setTimeout(() => {
+            img1.style.cssText = "animation-name: imgblur; animation-duration: 0.75s; animation-timing-function: ease-in-out; animation-fill-mode: forwards;";
+            setTimeout(() => {
+                img2.style.cssText = "animation-name: imgclear; animation-duration: 0.75s; animation-timing-function: ease-in-out; animation-fill-mode: forwards;";
+                setTimeout(() => {
+                    window.location.href='../jieguoye/jieguoye.html';
+                }, 1500);
+            }, 500);
+        }, 1000);
+    </script>
+</body>
+</html>

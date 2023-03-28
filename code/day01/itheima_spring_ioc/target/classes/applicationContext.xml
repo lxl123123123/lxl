@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="userDao" class="com.itheima.dao.impl.UserDaoImpl" scope="prototype">
+        <property name="age" value="14"></property>
+        <property name="name" value="lisi"></property>
+        <property name="list">
+            <list>
+                <value>aa</value>
+                <value>bb</value>
+                <value>cc</value>
+            </list>
+        </property>
+    </bean>
+    <bean id="userService" class="com.itheima.service.impl.UserServiceImpl">
+<!--set方法注入-->
+        <property name="userDao" ref="userDao"></property>
+<!--构造器方法注入-->
+<!--        <constructor-arg name="userDao" ref="userDao"></constructor-arg>-->
+    </bean>
+</beans>

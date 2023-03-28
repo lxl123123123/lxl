@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport"content="width=device-width, initial-scale=1.0,user-scalable=no, maximum-scale=1.0,minimum-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/Zou_1.css">
+    <link rel="stylesheet" href="./css/Zou_2.css">
+    <style>
+        body{
+    margin: 0px;
+    padding: 0px;
+    height:100%;
+    width:100%;
+}
+.M_con{
+    display: none;
+    width:100%;
+    height:100%;
+    position: absolute;
+    background-image: url(./bgc.jpg);
+    background-size: 288% 163%;
+    background-position: 100% 100%;
+}
+.M_con .M_heart{
+    width:28.4%;
+    height:11.1%;
+    position: absolute;
+    top:29.6%;
+    left:23.4%;
+    background-image: url(./heart_gray.png);
+    background-size: 100% 100%;
+}
+.M_con .M_bird{
+    width:28.3%;
+    height: 13.3%;
+    background-repeat: no-repeat;
+    transform: rotateZ(2deg);
+    position: absolute;
+    top:23.5%;
+    left:68.8%;
+    background-image: url(./bird.png);
+    background-size: 100%;
+}
+.M_con .M_cloud{
+    width: 48.8%;
+    height: 18.8%;
+    background-image: url(./duihuakuang.png);
+    background-size: 100%;
+    position: absolute;
+    top: 8%;
+    left: 24%;
+    background-repeat: no-repeat;
+}
+.M_con .M_cloud .M_cloud_text{
+    width:80%;
+    height:40%;
+    margin:10%;
+    margin-top: 15%;
+    margin-bottom: 45%;
+    letter-spacing: 4px;
+    font-size: 21px;
+}
+.M_con .M_text{
+    position: absolute;
+    width:5%;
+    height:22.2%;
+    left:80%;
+    top:6%;
+    line-height: 30px;
+    font-size: 19px;
+}
+.M_con .M_sword{
+    background-image: url(./sword.png);
+    background-size: 100%;
+    width:23%;
+    height: 12.5%;
+    background-repeat: no-repeat;
+    position: absolute;
+    top:53%;
+    left:19%;
+    display: none;
+}
+.M_con .M_human{
+    width:15.3%;
+    height:11.4%;
+    z-index: 1;
+    position: absolute;
+    left:11%;
+    top:80%;
+    background-image: url(./human.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.M_con .M_tree{
+    width:20.4%;
+    height: 10%;
+    position: absolute;
+    top:80%;
+    left:36%;
+    background-image: url(./tree.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.M_con .M_cat{
+    width:33.8%;
+    height:15.6%;
+    position: absolute;
+    top:48%;
+    left:2%;
+    display: none;
+}
+.M_con .M_another_cloud{
+    width: 54.8%;
+    height:17.8%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-image: url(./duihuakuang2.png);
+    position: absolute;
+    top:32%;
+    left:30%;
+    display: none;
+}
+.M_con #M_another_innerText{
+    width:80%;
+    display: block;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    line-height: 34px;
+    text-align: center;
+    letter-spacing: 5px;
+    font-size: 27px;
+    font-weight: 300;
+}
+.M_select{
+    width:100%;
+    height:27.2%;
+    position: absolute;
+    z-index: 5;
+    display: block;
+    top:0px;
+    bottom: 0px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.M_select div{
+    width: 80%;
+    height:50%;
+    box-sizing: border-box;
+    margin: 0 10%;
+}
+.M_select div div:first-child{
+    width:30%;
+    height: 100%;
+    float: left;
+    margin: 0;
+}
+.M_select div div:nth-child(2){
+    width:70%;
+    height:100%;
+    float: left;
+    margin: 0;
+}
+.M_introduce{
+    display: none;
+    width: 69%;
+    height:10.2%;
+    position: absolute;
+    top:35%;
+    bottom:0%;
+    left:0px;
+    right:0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.M_sign_up{
+    display: none;
+    width:69%;
+    height:8.2%;
+    position: absolute;
+    top:50%;
+    bottom:0%;
+    left:0px;
+    right:0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.img1{
+    width: 25%;
+    height:114%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-image: url(./flower.png);
+    float: left;
+}
+.text_1{
+    width: 75%;
+    height: 100%;
+    float: left;
+    font-size: 28px;
+    color: #fff;
+    line-height: 34px;
+    text-align: center;
+    line-height: 2.5;
+}
+.img2{
+    width: 25%;
+    height:120%;
+    background-size:100%;
+    background-repeat: no-repeat;
+    background-image: url(./jiangbei.png);
+    float: left;
+}
+.text_2{
+    width: 75%;
+    height:100%;
+    float: left;
+    font-size:28px;
+    text-align: center;
+    line-height: 2.5;
+    color: #fff;
+}
+.block1{
+    display: none;
+    position: absolute;
+    top:52%;
+    left:39%;
+}
+.block2{
+    display: none;
+    position: absolute;
+    top:36%;
+    left:70%;
+}
+.M_flower{
+    display: none;
+}
+.M_cup{
+    display: none;
+}
+.M_congratulation1{
+    display: none;
+    position: absolute;
+    width:100%;
+    top:35%;
+    left: 0px;
+    right:0%;
+    bottom:0px;
+    margin: auto;
+    text-align: center;
+    line-height: 1;
+    color: #fff;
+    font-size: 36px;
+    font-weight: 150;
+}
+.M_congratulation2{
+    display: none;
+    position: absolute;
+    width:100%;
+    height: 5.6%;
+    top:0px;
+    left:0%;
+    right:0%;
+    bottom:0px;
+    margin: auto;
+    text-align: center;
+    line-height: 1;
+    color: #fff;
+    font-size: 36px;
+    font-weight: 150;
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="./picture/text1.png" alt="" class="text1">
+        <img src="./picture/text2.png" alt="" class="text2">
+        <img src="./picture/text3.png" alt="" class="text3">
+        <img src="./picture/pic1.png" alt="" class="pic1">
+        <img src="./picture/pic2.png" alt="" class="pic2">
+        <img src="./picture/pic3.png" alt="" class="pic3">
+        <img src="./picture/pic4.png" alt="" class="pic4">
+        <img src="./picture/ename.png" alt="" class="ename">
+        <img src="./picture/cname.png" alt="" class="cname">
+        <img src="./picture/direction.png" alt="" class="direction">
+    </div>
+    <div class="zhuye">
+        <img src="./picture/icon.png" alt="" class="icon">
+        <img src="./picture/ename2.png" alt="" class="ename2">
+        <img class="top-img" src="./picture/bgc1.png" alt="">
+        <div class="choose-container">
+            <img src="./picture/pica.png" alt="" class="pica">
+            <img src="./picture/picb.png" alt="" class="picb">
+            <img src="./picture/picc.png" alt="" class="picc">
+            <img src="./picture/picd.png" alt="" class="picd">
+        </div>
+        <img class="bottom-img" src="./picture/bgc2.png" alt="">
+    </div>
+    <div class="M_con">
+        <div class="M_heart"></div>
+        <div class="M_bird"></div>
+        <div class="M_cloud">
+            <div class="M_cloud_text">
+                点亮红心召唤旅行者吧
+            </div>
+        </div>
+        <div class="M_text" style="opacity: 0;">
+            即将进入冒险
+        </div>
+        <div class="M_sword"></div>
+        <div class="M_upper_cloud"></div>
+        <div class="M_sword"></div>
+        <div class="M_human" style="display: none;left:11%;top:81%;transition: all 0.2s;"></div>
+        <div class="M_tree" style="display: none;"></div>
+        <img class="M_cat" src="./cat.png" alt="">
+        <div class="M_another_cloud">
+            <p id="M_another_innerText"></p>
+        </div>
+        <img src="./block.png" width="16.9%" alt="" class="block1">
+        <img src="./block.png" width="16.9%" class="block2" alt="">
+        <img src="./flower.png" style="transition:all 1s linear;" width="10%" height="5.4%" alt="" class="M_flower">
+        <img src="./jiangbei.png" style="transition:all 1s linear;" width="10%" height="5.4%" alt="" class="M_cup">
+    </div>
+    <div class="M_introduce">
+        <div class="img1"></div>
+        <div class="text_1">部门介绍</div>
+    </div>
+    <div class="M_sign_up">
+        <div class="img2"></div>
+        <div class="text_2">报名系统</div>
+    </div>
+    <div class="M_congratulation1">恭喜您</div>
+    <div class="M_congratulation2">冒险成功！</div>
+    <script src="./js/Zou_1.js"></script>
+    <script src="./js/M.js"></script>
+    <script src="./js/Zou_2.js"></script>
+</body>
+</html>

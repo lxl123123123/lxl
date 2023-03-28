@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="springboot_05_mybatis" />
+        <module name="springboot_01_01_quickstart" />
+        <module name="springboot_13_configuration" />
+        <module name="springboot_14_test" />
+        <module name="springboot_16_redis" />
+        <module name="springboot_08_ssmp" />
+        <module name="springboot_20_lixiaolong" />
+        <module name="springboot_06_mybatis_plus" />
+        <module name="springboot_12_hot_deploy" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="springboot_01_01_quickstart" target="1.8" />
+      <module name="springboot_05_mybatis" target="1.8" />
+      <module name="springboot_06_mybatis_plus" target="1.8" />
+      <module name="springboot_08_ssmp" target="1.8" />
+      <module name="springboot_12_hot_deploy" target="1.8" />
+      <module name="springboot_13_configuration" target="1.8" />
+      <module name="springboot_14_test" target="1.8" />
+      <module name="springboot_16_redis" target="1.8" />
+      <module name="springboot_20_lixiaolong" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="springboot_01_01_quickstart" options="" />
+    </option>
+  </component>
+</project>

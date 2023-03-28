@@ -1,0 +1,14 @@
+person:
+  name: qinjiang
+  age: 3
+  happy: false
+  birth: 2022/7/07
+  maps: {lxl: 哈哈,lxh: 嘿嘿}
+#  lists:
+#    - code
+#    - music
+#    - girls
+  lists: {code,music,girls}
+  dog:
+    name: 旺财
+    age: 3

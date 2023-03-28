@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../springboot_01_01_quickstart/springboot_01_01_quickstart.iml" filepath="$PROJECT_DIR$/../springboot_01_01_quickstart/springboot_01_01_quickstart.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../springboot_05_mybatis/springboot_05_mybatis.iml" filepath="$PROJECT_DIR$/../springboot_05_mybatis/springboot_05_mybatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../springboot_06_mybatis_plus/springboot_06_mybatis_plus.iml" filepath="$PROJECT_DIR$/../springboot_06_mybatis_plus/springboot_06_mybatis_plus.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../springboot_08_ssmp/springboot_08_ssmp.iml" filepath="$PROJECT_DIR$/../springboot_08_ssmp/springboot_08_ssmp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../springboot_12_hot_deploy/springboot_12_hot_deploy.iml" filepath="$PROJECT_DIR$/../springboot_12_hot_deploy/springboot_12_hot_deploy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../springboot_13_configuration/springboot_13_configuration.iml" filepath="$PROJECT_DIR$/../springboot_13_configuration/springboot_13_configuration.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../springboot_14_test/springboot_14_test.iml" filepath="$PROJECT_DIR$/../springboot_14_test/springboot_14_test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../springboot_16_redis/springboot_16_redis.iml" filepath="$PROJECT_DIR$/../springboot_16_redis/springboot_16_redis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../springboot_20_lixiaolong/springboot_20_lixiaolong.iml" filepath="$PROJECT_DIR$/../springboot_20_lixiaolong/springboot_20_lixiaolong.iml" />
+    </modules>
+  </component>
+</project>

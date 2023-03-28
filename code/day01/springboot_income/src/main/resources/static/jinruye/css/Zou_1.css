@@ -1,0 +1,104 @@
+@keyframes textblur {
+    0%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+@keyframes textclear {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+@keyframes picclear {
+    0%{
+        opacity: 0.2;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+.text1 {
+    position: absolute;
+    width: 86.44%;
+    height: 4.42%;
+    left: 7.47%;
+    top: 22.46%;
+    opacity: 1;
+}
+.text2 {
+    position: absolute;
+    left: 39.01%;
+    top: 22.46%;
+    width: 23.59%;
+    height: 4.42%;
+    opacity: 0;
+}
+.text3 {
+    position: absolute;
+    left: 35.04%;
+    top: 22.46%;
+    width: 31.54%;
+    height: 4.42%;
+    opacity: 0;
+}
+.pic1 {
+    position: absolute;
+    left: 2.80%;
+    top: 56.91%;
+    width: 23.83%;
+    height: 12.85%;
+    opacity: 0.2;
+}
+.pic2 {
+    position: absolute;
+    left: 27.57%;
+    top: 56.91%;
+    width: 22.42%;
+    height: 12.63%;
+    opacity: 0.2;
+}
+.pic3 {
+    position: absolute;
+    left: 53.03%;
+    top: 57.23%;
+    width: 20.32%;
+    height: 12.20%;
+    opacity: 0.2;
+}
+.pic4 {
+    position: absolute;
+    left: 76.40%;
+    top: 56.91%;
+    width: 19.85%;
+    height: 12.52%;
+    opacity: 0.2;
+}
+.ename {
+    position: absolute;
+    left: 6.54%;
+    top: 10.36%;
+    width: 64.25%;
+    height: 8.42%;
+    opacity: 0;
+}
+.cname {
+    position: absolute;
+    left: 29.90%;
+    top: 18.79%;
+    width: 70.09%;
+    height: 7.88%;
+    opacity: 0;
+}
+.direction {
+    position: absolute;
+    left: 11.91%;
+    top: 74.83%;
+    width: 76.16%;
+    height: 5.72%;
+    opacity: 0;
+}

@@ -1,0 +1,259 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    height:100%;
+    width:100%;
+}
+.M_con{
+    display: none;
+    width:100%;
+    height:100%;
+    position: absolute;
+    background-image: url(./bgc.jpg);
+    background-size: 288% 163%;
+    background-position: 100% 100%;
+}
+.M_con .M_heart{
+    width:28.4%;
+    height:11.1%;
+    position: absolute;
+    top:29.6%;
+    left:23.4%;
+    background-image: url(./heart_gray.png);
+    background-size: 100% 100%;
+}
+.M_con .M_bird{
+    width:28.3%;
+    height:10.3%;
+    transform: rotateZ(2deg);
+    position: absolute;
+    top:23.5%;
+    left:68.8%;
+    background-image: url(./bird.png);
+    background-size: 100%;
+}
+.M_con .M_cloud{
+    width:48.8%;
+    height:15.8%;
+    background-image: url(./duihuakuang.png);
+    background-size: 100%;
+    position: absolute;
+    top:8%;
+    left:21%;
+}
+.M_con .M_cloud .M_cloud_text{
+    width:80%;
+    height:40%;
+    margin:10%;
+    margin-top: 15%;
+    margin-bottom: 45%;
+    letter-spacing: 4px;
+    font-size: 21px;
+}
+.M_con .M_text{
+    position: absolute;
+    width:5%;
+    height:22.2%;
+    left:80%;
+    top:6%;
+    line-height: 30px;
+    font-size: 19px;
+}
+.M_con .M_sword{
+    background-image: url(./sword.png);
+    background-size: 100%;
+    width:23%;
+    height:10.5%;
+    position: absolute;
+    top:53%;
+    left:19%;
+    display: none;
+}
+.M_con .M_human{
+    width:15.3%;
+    height:9.4%;
+    z-index: 1;
+    position: absolute;
+    left:11%;
+    top:81%;
+    background-image: url(./human.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.M_con .M_tree{
+    width:20.4%;
+    height: 10%;
+    position: absolute;
+    top:80%;
+    left:36%;
+    background-image: url(./tree.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.M_con .M_cat{
+    width:33.8%;
+    height:15.6%;
+    position: absolute;
+    top:48%;
+    left:2%;
+    display: none;
+}
+.M_con .M_another_cloud{
+    width: 54.8%;
+    height:17.8%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-image: url(./duihuakuang2.png);
+    position: absolute;
+    top:32%;
+    left:30%;
+    display: none;
+}
+.M_con #M_another_innerText{
+    width:80%;
+    display: block;
+    margin-left: 10%;
+    margin-right: 10%;
+    line-height: 34px;
+    text-align: center;
+    letter-spacing: 5px;
+    font-size: 27px;
+    font-weight: 300;
+}
+.M_select{
+    width:100%;
+    height:27.2%;
+    position: absolute;
+    z-index: 5;
+    display: block;
+    top:0px;
+    bottom: 0px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.M_select div{
+    width: 80%;
+    height:50%;
+    box-sizing: border-box;
+    margin: 0 10%;
+}
+.M_select div div:first-child{
+    width:30%;
+    height: 100%;
+    float: left;
+    margin: 0;
+}
+.M_select div div:nth-child(2){
+    width:70%;
+    height:100%;
+    float: left;
+    margin: 0;
+}
+.M_introduce{
+    display: none;
+    width: 69%;
+    height:10.2%;
+    position: absolute;
+    top:35%;
+    bottom:0%;
+    left:0px;
+    right:0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.M_sign_up{
+    display: none;
+    width:69%;
+    height:8.2%;
+    position: absolute;
+    top:50%;
+    bottom:0%;
+    left:0px;
+    right:0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.img1{
+    width: 25%;
+    height:100%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-image: url(./flower.png);
+    float: left;
+}
+.text_1{
+    width: 75%;
+    height: 100%;
+    float: left;
+    font-size: 28px;
+    color: #fff;
+    line-height: 34px;
+    text-align: center;
+    line-height: 2.5;
+}
+.img2{
+    width: 25%;
+    height:100%;
+    background-size:100%;
+    background-repeat: no-repeat;
+    background-image: url(./jiangbei.png);
+    float: left;
+}
+.text_2{
+    width: 75%;
+    height:100%;
+    float: left;
+    font-size:28px;
+    text-align: center;
+    line-height: 2.5;
+    color: #fff;
+}
+.block1{
+    display: none;
+    position: absolute;
+    top:52%;
+    left:39%;
+}
+.block2{
+    display: none;
+    position: absolute;
+    top:36%;
+    left:70%;
+}
+.M_flower{
+    display: none;
+}
+.M_cup{
+    display: none;
+}
+.M_congratulation1{
+    display: none;
+    position: absolute;
+    width:100%;
+    top:35%;
+    left: 0px;
+    right:0%;
+    bottom:0px;
+    margin: auto;
+    text-align: center;
+    line-height: 1;
+    color: #fff;
+    font-size: 36px;
+    font-weight: 150;
+}
+.M_congratulation2{
+    display: none;
+    position: absolute;
+    width:100%;
+    height: 5.6%;
+    top:0px;
+    left:0%;
+    right:0%;
+    bottom:0px;
+    margin: auto;
+    text-align: center;
+    line-height: 1;
+    color: #fff;
+    font-size: 36px;
+    font-weight: 150;
+}

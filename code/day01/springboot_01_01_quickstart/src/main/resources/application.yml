@@ -1,0 +1,28 @@
+country: china
+province: beijing
+city: beijing
+area: haidian
+
+port: 8080
+party: true
+birthday: 1949-10-01
+user1:
+  name: lixiaolong
+  age: 19
+
+user2:
+  - name: lxl
+    age: 20
+  - name: lxh
+    age: 25
+
+a:
+  b:
+    c:
+      d:
+        e: 13
+
+likes:
+  - game
+  - music
+  - sleep
